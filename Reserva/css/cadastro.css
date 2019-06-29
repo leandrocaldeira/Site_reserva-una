@@ -1,0 +1,65 @@
+#navbar li {
+    
+    padding: 12px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    flex-flow: column;
+}
+img {
+    width:50%;
+    height:23%;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+
+}
+.box {
+    flex: 25%;
+    
+
+}
+.box-1{
+    flex: 30%
+}
+.box-2 {
+    flex: 25%;
+    font-size: 18px;
+    font-family: 'Heebo', sans-serif;
+    color: tomato;
+}
+
+header {
+ background-color: ghostwhite;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    color: tomato;
+    font-family: 'Abril Fatface', cursive;
+}
+label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#036;
+    font-weight:bold;
+    float:left;
+}
+ select {
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+ }
+

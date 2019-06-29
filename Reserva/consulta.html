@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/consulta.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    <title>Consulta</title>
+</head>
+<body>
+    <div class="container">
+        
+                <header>
+                        <div class="box">
+                            <img src="img/una2.jpg" alt="">
+                        </div>
+                        <div class="box-2">
+                            <h1>Sistema de Reserva Una</h1>
+                        </div>
+                        <div class="box-1">
+                            <ul id="navbar">
+                                <a href="file:///C:/Users/Leandro/Desktop/Reserva/index.html"><li>Pagina Inicial</li></a>
+                                <a href="file:///C:/Users/Leandro/Desktop/Reserva/Reservar.html"><li>Reserva</li></a>
+                                <a href="C:/Users/Leandro/Desktop/Reserva/consulta.html"><li>Consulta</li></a>
+                                <a href="C:/Users/Leandro/Desktop/Reserva/cadastro.html"><li>Cadastro</li></a>
+                                <a href="C:/Users/Leandro/Desktop/Reserva/login.html"><li>logof</li></a>
+                            </ul>
+                        </div>
+                        
+                    </header>
+
+       
+        <main>
+            <div class="box-3">
+                    <div id="selecao-1">
+                            <label for="selecao-campus">Selecione o Campus:</label><br>
+                            <select name="selecao-campus" id="selecao-campus">
+                                <option value="0">Selecione</option>
+                                <option value="1">Aimorés</option>
+                                <option value="2">Barro Pretp</option>
+                                <option value="3">João Pinheiro</option>
+                                <option value="4">Barreiro</option>
+                                <option value="5">Contagem</option>
+                            </select>
+                        </div>
+                        <div id="selecao-2">
+                            <label for="selecao-bloco">Selecione o Bloco</label><br>
+                            <select name="nome-bloco" id="nome-bloco">
+                                <option value="0">Selecione</option>
+                                <option value="1">A</option>
+                                <option value="2">B</option>
+                                <option value="3">C</option>
+                                <option value="4">D</option>
+                            </select>
+                        </div>
+                    <div id="selecao-3">
+                        <label for="selecao-sala">Selecione a Sala: </label><br>
+                            <select name="selecao-sala" id="selecao-sala">
+                                <option value="0">Selecione</option>
+                                <option value="1">101</option>
+                                <option value="2">102</option>
+                                <option value="3">103</option>
+                                <option value="4">104</option>
+                                <option value="5">105</option>
+                                <option value="6">106</option>
+                                <option value="7">107</option>
+                                <option value="8">108</option>
+                                <option value="9">109</option>
+                                <option value="10">110</option>
+                                <option value="11">111</option>
+                                <option value="12">201</option>
+                                <option value="13">202</option>
+                                <option value="14">203</option>
+                                <option value="15">204</option>
+                                <option value="16">205</option>
+                                <option value="17">206</option>
+                                <option value="18">207</option>
+                                <option value="19">208</option>
+                            </select>
+                    </div>
+                    <div id="selecao-4">
+                        <label for="selecao-data">Selecione a data:</label><br>
+                        <input type="datetime-local" name="data" id="">
+                    </div>
+                    <div id="selecao-5">
+                        <label for="selecao-horario">Selecione o Horario:</label><br>
+                        <select name="selecao-horario" id="selecao-horario">
+                            <option value="0">Selecione</option>
+                            <option value="1">07:40 as 09:15</option>
+                            <option value="2">09:35 as 11:15</option>
+                            <option value="3">11:15 as 12:50</option>
+                            <option value="4">13:00 as 19:00</option>
+                            <option value="5">19:00 as 20:35</option>
+                            <option value="6">20:55 as 22:35</option>
+                            <option value="7">07:40 as 09:15</option>    
+                        </select>
+                    </div>
+                        <div id="selecao-6">
+                            <input type="submit" value="Pesquisar">
+                        </div>
+                    </div>
+                
+                    <div class="box-4">
+                        <h3>Informações</h3>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Dia</th>
+                                <th>Horário</th>
+                                <th>Equipamento</th>
+                                <th>Observação</th>
+                            </tr>
+
+                            <tr>
+                                <td>Solicitado</td>
+                                <td>01/07/2019</td>
+                                <td>19:00 as 20:35</td>
+                                <td>Caixa Amplicada</td>
+                                <td>Trazer cabo P10/P10</td>
+                            </tr>
+                            <tr>
+                                <td>Proximo</td>
+                                <td>01/07/2019</td>
+                                <td>20:55 as 22:30</td>
+                                <td>Ausente</td>
+                                <td>Nenhuma Observação</td>
+                            </tr>
+                        </table>
+                    </div>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
